@@ -1200,6 +1200,9 @@ namespace {
     {
         std::ostringstream message;
 
+        if (!action)
+            return;
+
         switch (key)
         {
         // reset selected PlugIn
